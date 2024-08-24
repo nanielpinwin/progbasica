@@ -1,0 +1,7 @@
+frase = input("Por favor ingresa una frase: ")
+mayusculas = frase.upper()
+minusculas = frase.lower()
+titulo = frase.title()
+print(f"Frase en mayúsculas: {mayusculas}")
+print(f"Frase en minúsculas: {minusculas}")
+print(f"Frase con la primera letra de cada palabra en mayúsculas: {titulo}")
